@@ -7,6 +7,7 @@ from keras.optimizers import Adam
 from keras.callbacks import TensorBoard
 import numpy as np
 import random
+from matplotlib import pyplot as plt
 
 ## keras.backend.image_dim_ordering()
 # WARNING: dim_ordering = 'th' in the code!!
@@ -96,11 +97,9 @@ def build_GAN():
     return GAN, discriminator, generator
 
 
-def train():
-    (X_train, y_train), (X_test, y_test) = load_dataset()
-    GAN, discriminator, generator = build_GAN()
-
-    # PRE train the discriminator work
+def init_discri(X_train, discriminator, generator):
+    # Etape 1:
+    # TRAIN the discriminator first to differentiate between true image and fully random image
     make_trainable(discriminator, False)
 
     nb_train_ex = 10000
@@ -118,8 +117,57 @@ def train():
     y_hat = discriminator.predict(X)
     y_hat = np.argmax(y_hat, axis=1)
     y = np.argmax(y, axis=1)
-    err = np.sum(y != y_hat)
+    err = (y != y_hat).sum()
     print('Accuracy %f' % (err / y_hat.shape[0]))
+
+
+def plot_gen(generator, nb_sample=16):
+    noise_gen = np.random.uniform(0, 1, [nb_sample, 100])
+    imgs = generator.predict(noise_gen)
+    plt.figure(figsize=(10, 10))
+    for i in range(nb_sample):
+        plt.subplot(4, 4, i + 1)
+        img = imgs[i, 0, :, :]
+        plt.imshow(img)
+
+    plt.tight_layout()
+    plt.show()
+
+
+def train(nb_epochs=100,
+          batch_size=32):
+    (X_train, _), (X_test, _) = load_dataset()
+    GAN, discriminator, generator = build_GAN()
+
+    plot_gen(generator)
+    init_discri(X_train, discriminator, generator)
+    losses = {"d": [], "g": []}
+    for epoch in range(nb_epochs):
+        # true images
+        X = X_train[np.random.randint(0, X_train.shape[0], batch_size), :, :, :]
+        # generated images
+        noise_gen = np.random.uniform(0, 1, [batch_size, 100])
+        generated_images = generator.predict(noise_gen)
+
+        # Train discriminator
+        X = np.concatenate((X, generated_images))
+        y = np.zeros((2 * batch_size, 2))
+        y[:batch_size, 0] = 1
+        y[:batch_size, 1] = 1
+        # make_trainable(discriminator, True)
+        d_loss = discriminator.train_on_batch(X, y)
+        losses["d"].append(d_loss)
+
+        noise_gen = np.random.uniform(0, 1, [batch_size, 100])
+        y2 = np.zeros((batch_size, 2))
+        y2[:batch_size, 1] = 1
+
+        # make_trainable(discriminator, False)
+        g_loss = GAN.train_on_batch(noise_gen, y2)
+        losses["g"].append(g_loss)
+
+        if epoch % 25 == 0:
+            plot_gen(generator)
 
 
 if __name__ == '__main__':

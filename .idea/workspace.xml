@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94c04b95-d01d-4abe-9ce1-48f73e83ca0f" name="Default" comment="" />
+    <list default="true" id="94c04b95-d01d-4abe-9ce1-48f73e83ca0f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/W2V.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GAN.py" afterPath="$PROJECT_DIR$/GAN.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +19,7 @@
     <SUITE FILE_PATH="coverage/keras$KerasLayer.coverage" NAME="KerasLayer Coverage Results" MODIFIED="1483040834386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/keras$mnist_mlp.coverage" NAME="mnist_mlp Coverage Results" MODIFIED="1483038883920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/keras$VAE.coverage" NAME="VAE Coverage Results" MODIFIED="1483044250594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/keras$GAN.coverage" NAME="GAN Coverage Results" MODIFIED="1483141558606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/keras$GAN.coverage" NAME="GAN Coverage Results" MODIFIED="1483145149478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -23,13 +27,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GAN.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GAN.py">
+      <file leaf-file-name="W2V.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/W2V.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="615">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,6 +53,9 @@
       <find>seaborn</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -60,6 +67,7 @@
         <option value="$PROJECT_DIR$/CustomLayer.py" />
         <option value="$PROJECT_DIR$/KerasLayer.py" />
         <option value="$PROJECT_DIR$/GAN.py" />
+        <option value="$PROJECT_DIR$/W2V.py" />
       </list>
     </option>
   </component>
@@ -71,7 +79,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="792" />
+    <option name="y" value="24" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
   </component>
@@ -90,6 +98,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -104,8 +114,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,27 +458,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="792" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1168332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31571627" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31571627" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,14 +499,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+          <folding>
+            <marker date="1483145228305" expanded="true" signature="0:395" ph="import ..." />
+            <marker date="1483145228305" expanded="true" signature="397:479" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="541:1058" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="1083:2099" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="1401:1481" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="2128:2947" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="2690:2767" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="2979:3054" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="3073:3417" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="3471:4274" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="3476:3581" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="4315:4604" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="4477:4565" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="4657:5789" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="4895:5789" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/seq2seq.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding>
-            <marker date="1483047629320" expanded="true" signature="0:141" ph="import ..." />
-            <marker date="1483047629320" expanded="true" signature="304:306" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -506,37 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
           <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <marker date="1481757353000" expanded="false" signature="0:158" ph="import ..." />
-            <marker date="1481757353000" expanded="true" signature="200:707" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="205:514" ph="&quot;&quot;&quot;Convert class vector (integers from 0 to nb_classes) to binary class matrix, for use with categorical_crossentropy....&quot;&quot;&quot;" />
-            <marker date="1481757353000" expanded="true" signature="745:860" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="888:1087" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="1119:1239" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="1261:1312" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="1345:1511" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="1551:1583" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="1637:4078" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="1642:1807" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1481757353000" expanded="true" signature="1945:2653" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="1954:2083" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="2116:2326" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="2211:2326" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="2361:2571" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="2456:2571" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="2680:3982" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="2689:2880" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="2913:3389" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="3040:3389" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="3075:3389" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="3114:3389" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="3424:3900" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="3551:3900" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="3586:3900" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="3625:3900" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="4164:4648" ph="..." />
-            <marker date="1481757353000" expanded="true" signature="4722:5060" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,10 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding>
-            <marker date="1483047629320" expanded="true" signature="0:141" ph="import ..." />
-            <marker date="1483047629320" expanded="true" signature="304:306" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -555,55 +548,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnist_mlp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomLayer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="68" column="47" lean-forward="false" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VAE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KerasLayer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
-            <marker date="1483104702029" expanded="true" signature="0:688" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="689:1233" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1483104702029" expanded="false" signature="1234:1553" ph="import ..." />
-            <marker date="1483104702029" expanded="true" signature="1580:9061" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="1809:1863" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="1896:2032" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="2038:2153" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="2346:2464" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="2574:2739" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="2770:2924" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="2958:3494" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="3084:3494" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="3578:4690" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="3587:3858" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1483104702029" expanded="true" signature="3981:4690" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="4101:4212" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="4254:4350" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="4395:4536" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="4773:4937" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="5096:5655" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="5105:5507" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="5743:5845" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="5882:6128" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="6636:6721" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="7168:7368" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="7395:7754" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="7511:7617" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="7631:7709" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="7792:8898" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="7816:8046" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="8061:8898" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="8132:8719" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="8738:8898" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="9093:9619" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="9311:9533" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="9346:9533" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="9426:9533" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="9633:10000" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="9683:9922" ph="..." />
-            <marker date="1483104702029" expanded="true" signature="10028:10999" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="0:395" ph="import ..." />
+            <marker date="1483145228305" expanded="true" signature="397:479" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="541:1058" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="1083:2099" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="1401:1481" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="2128:2947" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="2690:2767" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="2979:3054" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="3073:3417" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="3471:4274" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="3476:3581" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="4315:4604" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="4477:4565" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="4657:5789" ph="..." />
+            <marker date="1483145228305" expanded="true" signature="4895:5789" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Embedding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        <state relative-caret-position="208">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="25" />
           <folding>
             <marker date="1483129462204" expanded="true" signature="0:132" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
             <marker date="1483129462204" expanded="true" signature="133:322" ph="import ..." />
@@ -615,78 +618,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnist_mlp.py">
+    <entry file="file://$PROJECT_DIR$/W2V.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="615">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
-            <marker date="1483043597163" expanded="true" signature="0:235" ph="import ..." />
-            <marker date="1483043597163" expanded="true" signature="286:748" ph="..." />
-            <marker date="1483043597163" expanded="true" signature="769:2167" ph="..." />
-            <marker date="1483043597163" expanded="true" signature="1002:1535" ph="..." />
-            <marker date="1483043597163" expanded="true" signature="1563:2167" ph="..." />
-            <marker date="1483043597163" expanded="true" signature="2196:2234" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CustomLayer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="68" column="47" lean-forward="false" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
-          <folding>
-            <marker date="1483129746053" expanded="true" signature="0:179" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1483129746053" expanded="true" signature="181:358" ph="import ..." />
-            <marker date="1483129746053" expanded="true" signature="386:2226" ph="..." />
-            <marker date="1483129746053" expanded="true" signature="432:832" ph="..." />
-            <marker date="1483129746053" expanded="true" signature="441:691" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1483129746053" expanded="true" signature="867:1286" ph="..." />
-            <marker date="1483129746053" expanded="true" signature="876:1059" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1483129746053" expanded="true" signature="1321:1988" ph="..." />
-            <marker date="1483129746053" expanded="true" signature="1330:1810" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1483129746053" expanded="true" signature="2038:2226" ph="..." />
-            <marker date="1483129746053" expanded="true" signature="2047:2177" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1483129746053" expanded="true" signature="2392:2775" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VAE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="35" />
-          <folding>
-            <marker date="1483044246359" expanded="true" signature="0:278" ph="import ..." />
-            <marker date="1483044246359" expanded="true" signature="446:2603" ph="..." />
-            <marker date="1483044246359" expanded="true" signature="814:2207" ph="..." />
-            <marker date="1483044246359" expanded="true" signature="1157:1458" ph="..." />
-            <marker date="1483044246359" expanded="true" signature="1804:2052" ph="..." />
-            <marker date="1483044246359" expanded="true" signature="2229:2603" ph="..." />
-            <marker date="1483044246359" expanded="true" signature="2632:2664" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KerasLayer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1483135539091" expanded="true" signature="25:605" ph="..." />
-            <marker date="1483135539091" expanded="true" signature="30:117" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1483135539091" expanded="true" signature="314:539" ph="..." />
-            <marker date="1483135539091" expanded="true" signature="335:538" ph="..." />
-            <marker date="1483135539091" expanded="true" signature="581:605" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
